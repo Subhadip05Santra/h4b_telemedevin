@@ -11,7 +11,7 @@ configureGenkit({
   plugins: [
     firebase(),
     ollama({
-      models: [{ name: 'gemma' }],
+      models: [{ name: 'qwen2:0.5b' }],
       serverAddress: 'http://127.0.0.1:11434', // default ollama local address
     }),
   ],
@@ -35,7 +35,7 @@ export const menuSuggestionFlow = onFlow(
       `Suggest an item for the menu of a ${subject} themed restaurant`;
 
     const llmResponse = await generate({
-      model: 'ollama/gemma',
+      model: 'ollama/qwen2:0.5b',
       prompt: prompt,
       config: {
         temperature: 1,
@@ -45,4 +45,3 @@ export const menuSuggestionFlow = onFlow(
     return llmResponse.text();
   }
 );
-
