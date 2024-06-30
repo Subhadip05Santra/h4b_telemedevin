@@ -46,22 +46,22 @@ const ForgotPasswordForm = () => {
     users.newPassword = values.newPassword;
     console.log(users);
 
-    try {
-      // TODO: Write the proper code for the backend.
-      const response = await axios.post("/api/user/forgotpassword", users);
-      console.log("Password Changed success", response.data);
-      toast({
-        title: "Password Changed Successfully",
-      });
-      router.push("/login");
-    } catch (error: any) {
-      console.log("Password Changed failed", error.message);
-      toast({
-        variant: "destructive",
-        title: "Password Changed Successfully",
-        description: "Please use another email.",
-      });
-    }
+    // try {
+    //   // TODO: Write the proper code for the backend.
+    //   const response = await axios.post("/api/user/forgotpassword", users);
+    //   console.log("Password Changed success", response.data);
+    //   toast({
+    //     title: "Password Changed Successfully",
+    //   });
+    //   router.push("/login");
+    // } catch (error: any) {
+    //   console.log("Password Changed failed", error.message);
+    //   toast({
+    //     variant: "destructive",
+    //     title: "Password Changed Successfully",
+    //     description: "Please use another email.",
+    //   });
+    // }
   };
 
   return (

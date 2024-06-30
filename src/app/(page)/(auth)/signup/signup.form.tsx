@@ -49,21 +49,21 @@ const SignUpForm = () => {
     users.password = values.password;
     console.log(users);
 
-    try {
-      const response = await axios.post("/api/user/signup", users);
-      console.log("Signup success", response.data);
-      toast({
-        title: "Account Created Successfully",
-      });
-      router.push("/login");
-    } catch (error: any) {
-      console.log("Signup failed", error.message);
-      toast({
-        variant: "destructive",
-        title: "Account Already Exists",
-        description: "Please use another email.",
-      });
-    }
+    // try {
+    //   const response = await axios.post("/api/user/signup", users);
+    //   console.log("Signup success", response.data);
+    //   toast({
+    //     title: "Account Created Successfully",
+    //   });
+    //   router.push("/login");
+    // } catch (error: any) {
+    //   console.log("Signup failed", error.message);
+    //   toast({
+    //     variant: "destructive",
+    //     title: "Account Already Exists",
+    //     description: "Please use another email.",
+    //   });
+    // }
   };
 
   return (

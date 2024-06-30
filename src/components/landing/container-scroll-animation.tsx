@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 // TODO: We need a better picture tham this.
-import picture from "@/public/image/gettyimages.jpg";
+import picture from "@/assets/image/gettyimages.jpg";
 import { ContainerScroll } from "./container-scroll-animation.component";
 
 export default function ContainerScrollAnimation() {

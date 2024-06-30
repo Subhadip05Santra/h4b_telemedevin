@@ -43,20 +43,20 @@ const LoginForm = () => {
     users.password = values.password;
     console.log(users);
 
-    try {
-      const response = await axios.post("/api/user/login", users);
-      console.log("Login success", response.data);
-      toast({
-        title: "Login Successfully",
-      });
-      router.push("/");
-    } catch (error: any) {
-      console.log("Login failed", error.message);
-      toast({
-        variant: "destructive",
-        title: "Account Dose Not Exist",
-      });
-    }
+    // try {
+    //   const response = await axios.post("/api/user/login", users);
+    //   console.log("Login success", response.data);
+    //   toast({
+    //     title: "Login Successfully",
+    //   });
+    //   router.push("/");
+    // } catch (error: any) {
+    //   console.log("Login failed", error.message);
+    //   toast({
+    //     variant: "destructive",
+    //     title: "Account Dose Not Exist",
+    //   });
+    // }
   };
 
   return (

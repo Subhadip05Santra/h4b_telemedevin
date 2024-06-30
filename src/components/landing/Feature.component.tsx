@@ -1,5 +1,5 @@
 import Image from "next/image";
-import picture from "@/public/image/gettyimages.jpg";
+import picture from "../../assets/image/gettyimages.jpg";
 
 const topFeatures = [
   {
