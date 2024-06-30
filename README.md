@@ -1,4 +1,5 @@
-# Telemedicine App by Code Rollercoaster
+![Black Elegant and Modern Startup Pitch Deck Presentation](https://github.com/debarshee2004/h4b_telemedevin/assets/129538241/85aca4e8-ca2b-48f6-a6ae-1afe99e03662)
+# Telemedevin App by Code Rollercoaster
 
 ## Overview
 
@@ -32,10 +33,12 @@ Welcome to the Next Firebase GenKit Telemedicine App! This application leverages
 
 1. **Clone the Repository:**
     - git clone
-    <br/>
+    - 
     ```bash
     https://github.com/debarshee2004/h4b_telemedevin.git
-    cd telemedicine-app
+    ```
+    ```bash
+    cd h4b_telemedevin
     ```
 
 2. **Install Dependencies:**
@@ -58,7 +61,7 @@ Welcome to the Next Firebase GenKit Telemedicine App! This application leverages
 5. **Environment Variables:**
 
     - Create a .env file in the root directory and add the following configurations:
-    ```bash
+    ```env
     FIREBASE_API_KEY=your_firebase_api_key
     FIREBASE_AUTH_DOMAIN=your_project_id.firebaseapp.com
     FIREBASE_PROJECT_ID=your_project_id
@@ -78,11 +81,10 @@ Welcome to the Next Firebase GenKit Telemedicine App! This application leverages
     #or
     pnpm dev
     # or
-    bun de
+    bun dev
     ```
 
 ##  Contributions
-
 **Frontend:**  [Debarshee Chakraborty](https://github.com/debarshee2004) and [Subhadip Santra](https://github.com/Subhadip05Santra)
 
 **Backend:** [Debasmita Goswami](https://github.com/Debasmita-Goswami) and [Ayushi Srivastava](https://github.com/AyushiSrivastava11)
