@@ -3,7 +3,7 @@
 
 ## Overview
 
-Welcome to the Next Firebase GenKit Telemedicine App! This application leverages the power of Firebase for backend services and includes an AI bot based on the Quen2:0.5b model, powered by Ollama. The app provides quick and efficient healthcare support by offering initial diagnoses through the AI bot and connecting users with healthcare professionals for critical cases.
+Welcome to the Next-Firebase-GenKit Telemedicine App! This application leverages the power of Firebase for backend services and includes an AI bot based on the Quen2:0.5b model, powered by Ollama. The app provides quick and efficient healthcare support by offering initial diagnoses through the AI bot and connecting users with healthcare professionals for critical cases.
 
 ## Features
 
@@ -18,6 +18,7 @@ Welcome to the Next Firebase GenKit Telemedicine App! This application leverages
 ## Benefits
 
 - **Reduced Doctor Workload:** Doctors get relief from overtime by having the AI bot handle initial diagnoses and routine cases.
+- **24/7 Availability:** The chatbot can provide preliminary consultations and answer common health questions around the clock.
 - **Quick and Easy Access:** Patients receive quick diagnoses without the need for an actual doctor visit, saving time and effort.
 - **Cost-effective Solutions:** People in suburban localities can avoid expensive doctor charges for minor issues by using the AI bot for basic diagnosis.
 
