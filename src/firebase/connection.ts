@@ -8,6 +8,7 @@ import {
   MESSAGEINGSENDERID,
   PROJECTID,
   STORAGEBUCKET,
+  MEASUREMENTID,
 } from "@/constants";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -21,7 +22,7 @@ const firebaseConfig = {
   storageBucket: STORAGEBUCKET,
   messagingSenderId: MESSAGEINGSENDERID,
   appId: APPID,
-  measurementId: "G-ZZHSJBHMT5",
+  measurementId: MEASUREMENTID,
 };
 
 // Initialize Firebase
